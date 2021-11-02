@@ -18,14 +18,10 @@ class _SettingsPageState extends State<SettingsPage> with AutoRouteAware {
   void didInitTabRoute(TabPageRoute? previousRoute) {}
 
   @override
-  void didPush() {
-    print('did push settings tab');
-  }
+  void didPush() {}
 
   @override
-  void didChangeTabRoute(TabPageRoute previousRoute) {
-    print('Changed to settings tab from ${previousRoute.name}');
-  }
+  void didChangeTabRoute(TabPageRoute previousRoute) {}
 
   @override
   void didChangeDependencies() {

@@ -1,0 +1,17 @@
+name: repositories
+version: 1.0.0
+description: The Dart analyzer settings and best practices used internally at Google.
+publish_to: "none"
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  chopper: ^4.0.1
+  models:
+    path: ../models
+  services:
+    path: ../services
+  get_it: ^7.2.0
+  result_type: ^0.1.0
+  http: ^0.13.4

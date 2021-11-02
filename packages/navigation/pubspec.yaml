@@ -1,0 +1,17 @@
+name: navigation
+version: 1.0.0
+description: Navigation package
+publish_to: "none"
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  auto_route: ^2.4.2
+  chopper: ^4.0.1
+  json_annotation: ^4.1.0
+  get_it: ^7.2.0
+
+dev_dependencies:
+  auto_route_generator: ^2.4.1
+  build_runner: ^2.1.4

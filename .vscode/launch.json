@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "whitelabel",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "whitelabel (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "models",
+            "cwd": "packages/models",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "repositories",
+            "cwd": "packages/repositories",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "services",
+            "cwd": "packages/services",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

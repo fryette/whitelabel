@@ -1,0 +1,18 @@
+targets:
+  $default:
+    sources:
+      - lib/**
+      - swaggers/**
+      - $package$
+    builders:
+      swagger_dart_code_generator:
+        options:
+          input_folder: "swaggers/"
+          output_folder: "lib/src/swagger_generated_code/"
+          with_base_url: false
+          with_converter: true
+          enums_case_sensitive: false
+          include_if_null: false
+          default_values_map:
+            - type_name: String
+              default_value: ""

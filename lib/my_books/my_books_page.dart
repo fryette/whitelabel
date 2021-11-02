@@ -5,7 +5,7 @@ import 'package:whitelabel/autorouter/root_router.dart';
 class MyBooksPage extends StatelessWidget {
   final String? filter;
 
-  MyBooksPage({Key? key, @queryParam this.filter = 'none'}) : super(key: key) {}
+  const MyBooksPage({Key? key, @queryParam this.filter = 'none'}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +30,7 @@ class MyBooksPage extends StatelessWidget {
                   SettingsTab(tab: 'newSegment'),
                 );
               },
-              child: Text('navigate to /settings/newSegment'),
+              child: const Text('navigate to /settings/newSegment'),
             )
           ],
         ),
