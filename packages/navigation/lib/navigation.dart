@@ -1,1 +1,1 @@
-
+export 'src/root_router.dart';

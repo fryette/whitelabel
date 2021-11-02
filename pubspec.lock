@@ -127,6 +127,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+  chopper:
+    dependency: transitive
+    description:
+      name: chopper
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.1"
   cli_util:
     dependency: transitive
     description:
@@ -221,6 +228,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.15.0"
   frontend_server_client:
     dependency: transitive
     description:
@@ -228,6 +242,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.2"
+  get_it:
+    dependency: transitive
+    description:
+      name: get_it
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "7.2.0"
   glob:
     dependency: transitive
     description:
@@ -242,6 +263,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
+  http:
+    dependency: transitive
+    description:
+      name: http
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.13.4"
   http_multi_server:
     dependency: transitive
     description:
@@ -312,6 +340,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
+  models:
+    dependency: transitive
+    description:
+      path: "packages/models"
+      relative: true
+    source: path
+    version: "1.0.0"
+  navigation:
+    dependency: "direct main"
+    description:
+      path: "packages/navigation"
+      relative: true
+    source: path
+    version: "1.0.0"
   package_config:
     dependency: transitive
     description:
@@ -347,6 +389,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.0"
+  repositories:
+    dependency: "direct main"
+    description:
+      path: "packages/repositories"
+      relative: true
+    source: path
+    version: "1.0.0"
+  result_type:
+    dependency: transitive
+    description:
+      name: result_type
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.0"
+  services:
+    dependency: transitive
+    description:
+      path: "packages/services"
+      relative: true
+    source: path
+    version: "1.0.0"
   shelf:
     dependency: transitive
     description:

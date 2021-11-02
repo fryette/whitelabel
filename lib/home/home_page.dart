@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:whitelabel/autorouter/root_router.dart';
+import 'package:navigation/navigation.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({

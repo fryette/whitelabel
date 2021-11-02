@@ -1,6 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:whitelabel/autorouter/root_router.dart';
+import 'package:navigation/navigation.dart';
 
 class MyBooksPage extends StatelessWidget {
   final String? filter;

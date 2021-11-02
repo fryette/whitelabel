@@ -162,6 +162,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.1"
+  cupertino_icons:
+    dependency: transitive
+    description:
+      name: cupertino_icons
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.3"
   dart_style:
     dependency: transitive
     description:
@@ -188,6 +195,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.15.0"
   frontend_server_client:
     dependency: transitive
     description:
@@ -286,6 +300,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.1"
+  models:
+    dependency: transitive
+    description:
+      path: "../models"
+      relative: true
+    source: path
+    version: "1.0.0"
   package_config:
     dependency: transitive
     description:
@@ -321,6 +342,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.0"
+  repositories:
+    dependency: transitive
+    description:
+      path: "../repositories"
+      relative: true
+    source: path
+    version: "1.0.0"
+  result_type:
+    dependency: transitive
+    description:
+      name: result_type
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.0"
+  services:
+    dependency: transitive
+    description:
+      path: "../services"
+      relative: true
+    source: path
+    version: "1.0.0"
   shelf:
     dependency: transitive
     description:
@@ -424,6 +466,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
+  whitelabel:
+    dependency: "direct main"
+    description:
+      path: "../.."
+      relative: true
+    source: path
+    version: "1.0.0+1"
   yaml:
     dependency: transitive
     description:

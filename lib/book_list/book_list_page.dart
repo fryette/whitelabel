@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whitelabel/autorouter/root_router.dart';
+import 'package:navigation/navigation.dart';
 import 'package:whitelabel/model.dart';
 
 class BookListPage extends StatefulWidget {
